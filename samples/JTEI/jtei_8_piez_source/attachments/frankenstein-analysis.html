@@ -1,0 +1,863 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:z="http://lmnl-markup.org/ns/analysis">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+
+body { font-size: small }
+
+.name { font-size: 120%; font-family: monospace }
+
+h4 { margin: 0em; font-size: 115% }
+
+table { border-collapse: collapse }
+
+th, td { padding: 5px; text-align: center;
+  border-radius:2em
+ }
+
+th.rowhead { text-align: right }
+
+td.self-overlaps {  background-color: pink }
+
+td.overlaps {  background-color: lavender }
+
+        </style>
+</head>
+<body>
+<h4>file: <a href="frankenstein.lmnl">frankenstein.lmnl</a>
+</h4>
+<div>
+<h2>Overlap relations</h2>
+<table>
+<thead>
+<tr class="header">
+<th>&nbsp;</th><th><span class="name">TEI.2</span></th><th><span class="name">fileDesc</span></th><th><span class="name">titleStmt</span></th><th><span class="name">title</span></th><th><span class="name">author</span></th><th><span class="name">respStmt</span></th><th><span class="name">resp</span></th><th><span class="name">name</span></th><th><span class="name">publicationStmt</span></th><th><span class="name">p</span></th><th><span class="name">sourceDesc</span></th><th><span class="name">xref</span></th><th><span class="name">bibl</span></th><th><span class="name">gi</span></th><th><span class="name">revisionDesc</span></th><th><span class="name">change</span></th><th><span class="name">date</span></th><th><span class="name">item</span></th><th><span class="name">ident</span></th><th><span class="name">soCalled</span></th><th><span class="name">not consistently implemented, so removed from this edition &mdash; wap</span></th><th><span class="name">perhaps the original text was marked up with a non-TEI2 DTD &mdash; wap</span></th><th><span class="name">text</span></th><th><span class="name">front</span></th><th><span class="name">titlePage</span></th><th><span class="name">docTitle</span></th><th><span class="name">titlePart</span></th><th><span class="name">docAuthor</span></th><th><span class="name">epigraph</span></th><th><span class="name">lg</span></th><th><span class="name">l</span></th><th><span class="name">page</span></th><th><span class="name">introduction</span></th><th><span class="name">head</span></th><th><span class="name">q</span></th><th><span class="name">hi</span></th><th><span class="name">signed</span></th><th><span class="name">trailer</span></th><th><span class="name">preface</span></th><th><span class="name">body</span></th><th><span class="name">nar</span></th><th><span class="name">letter</span></th><th><span class="name">opener</span></th><th><span class="name">salute</span></th><th><span class="name">dateline</span></th><th><span class="name">lb</span></th><th><span class="name">entry</span></th><th><span class="name">chapter</span></th><th><span class="name">cit</span></th><th><span class="name">note</span></th><th><span class="name">term</span></th><th><span class="name">ref</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="rowhead"><span class="name">TEI.2</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">fileDesc</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">titleStmt</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">title</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">author</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">respStmt</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">resp</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">name</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">publicationStmt</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">p</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="overlaps"><span class="name">p</span> | <span class="name">page</span> (345)</td><td class="stacks"></td><td class="stacks"></td><td class="overlaps"><span class="name">p</span> | <span class="name">q</span> (4)</td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">sourceDesc</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">xref</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">bibl</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">gi</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">revisionDesc</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">change</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">date</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">item</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">ident</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">soCalled</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">not consistently implemented, so removed from this edition &mdash; wap</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">perhaps the original text was marked up with a non-TEI2 DTD &mdash; wap</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">text</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">front</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">titlePage</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">docTitle</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">titlePart</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">docAuthor</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">epigraph</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">lg</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">l</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">page</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="overlaps"><span class="name">page</span> | <span class="name">p</span> (345)</td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="overlaps"><span class="name">page</span> | <span class="name">introduction</span> (1)</td><td class="stacks"></td><td class="overlaps"><span class="name">page</span> | <span class="name">q</span> (58)</td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="overlaps"><span class="name">page</span> | <span class="name">preface</span> (2)</td><td class="overlaps"><span class="name">page</span> | <span class="name">body</span> (1)</td><td class="overlaps"><span class="name">page</span> | <span class="name">nar</span> (5)</td><td class="overlaps"><span class="name">page</span> | <span class="name">letter</span> (9)</td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="overlaps"><span class="name">page</span> | <span class="name">entry</span> (12)</td><td class="overlaps"><span class="name">page</span> | <span class="name">chapter</span> (40)</td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">introduction</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="overlaps"><span class="name">introduction</span> | <span class="name">page</span> (1)</td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">head</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">q</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="overlaps"><span class="name">q</span> | <span class="name">p</span> (4)</td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="overlaps"><span class="name">q</span> | <span class="name">page</span> (58)</td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">hi</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">signed</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">trailer</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">preface</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="overlaps"><span class="name">preface</span> | <span class="name">page</span> (2)</td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">body</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="overlaps"><span class="name">body</span> | <span class="name">page</span> (1)</td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">nar</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="overlaps"><span class="name">nar</span> | <span class="name">page</span> (5)</td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="overlaps"><span class="name">nar</span> | <span class="name">chapter</span> (1)</td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">letter</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="overlaps"><span class="name">letter</span> | <span class="name">page</span> (9)</td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">opener</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">salute</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">dateline</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">lb</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">entry</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="overlaps"><span class="name">entry</span> | <span class="name">page</span> (12)</td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="overlaps"><span class="name">entry</span> | <span class="name">chapter</span> (1)</td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">chapter</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="overlaps"><span class="name">chapter</span> | <span class="name">page</span> (40)</td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="overlaps"><span class="name">chapter</span> | <span class="name">nar</span> (1)</td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="overlaps"><span class="name">chapter</span> | <span class="name">entry</span> (1)</td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">cit</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">note</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">term</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+<tr>
+<th class="rowhead"><span class="name">ref</span></th><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td><td class="stacks"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<h2>Instances of overlap</h2>
+<ul>
+<li>
+<span class="name">TEI.2</span> (none)</li>
+<li>
+<span class="name">fileDesc</span> (none)</li>
+<li>
+<span class="name">titleStmt</span> (none)</li>
+<li>
+<span class="name">title</span> (none)</li>
+<li>
+<span class="name">author</span> (none)</li>
+<li>
+<span class="name">respStmt</span> (none)</li>
+<li>
+<span class="name">resp</span> (none)</li>
+<li>
+<span class="name">name</span> (none)</li>
+<li>
+<span class="name">publicationStmt</span> (none)</li>
+<li>
+<span class="name">p</span> overlaps:<ul>p (117.1-130.63) with page (101.1-125.50); page (126.1-151.15)</ul>
+<ul>p (147.1-159.13) with page (126.1-151.15); page (152.1-178.9)</ul>
+<ul>p (169.1-187.13) with page (152.1-178.9); page (179.1-205.62)</ul>
+<ul>p (204.1-213.78) with page (179.1-205.62); page (206.1-232.68)</ul>
+<ul>p (228.1-239.65) with page (206.1-232.68); page (233.1-256.79)</ul>
+<ul>p (241.1-260.20) with page (233.1-256.79); page (257.1-283.65)</ul>
+<ul>p (332.1-345.29) with page (303.1-335.10); page (336.1-364.13)</ul>
+<ul>p (379.1-408.65) with page (365.1-392.29); page (393.1-426.44)</ul>
+<ul>p (425.1-433.16) with page (393.1-426.44); page (427.1-460.64)</ul>
+<ul>p (457.1-464.58) with page (427.1-460.64); page (461.1-496.65)</ul>
+<ul>p (491.1-514.33) with page (461.1-496.65); page (497.1-528.46)</ul>
+<ul>p (527.1-557.11) with page (497.1-528.46); page (529.1-560.38)</ul>
+<ul>p (559.1-567.73) with page (529.1-560.38); page (561.1-593.14)</ul>
+<ul>p (666.1-671.32) with page (633.1-668.16); page (669.1-704.21)</ul>
+<ul>p (783.1-789.49) with page (745.1-786.8); page (787.1-820.65)</ul>
+<ul>p (817.1-824.67) with page (787.1-820.65); page (821.1-857.13)</ul>
+<ul>p (921.1-934.25) with page (893.1-926.64); page (927.1-960.19)</ul>
+<ul>p (955.1-964.28) with page (927.1-960.19); page (961.1-993.63)</ul>
+<ul>p (987.1-1001.69) with page (961.1-993.63); page (994.1-1024.19)</ul>
+<ul>p (1053.1-1065.27) with page (1025.1-1060.24); page (1061.1-1091.44)</ul>
+<ul>p (1087.1-1104.12) with page (1061.1-1091.44); page (1092.1-1125.78)</ul>
+<ul>p (1123.1-1138.12) with page (1092.1-1125.78); page (1126.1-1158.66)</ul>
+<ul>p (1150.1-1161.53) with page (1126.1-1158.66); page (1159.1-1191.80)</ul>
+<ul>p (1187.1-1194.51) with page (1159.1-1191.80); page (1192.1-1225.45)</ul>
+<ul>p (1219.1-1231.13) with page (1192.1-1225.45); page (1226.1-1258.59)</ul>
+<ul>p (1276.1-1296.12) with page (1259.1-1292.29); page (1293.1-1326.77)</ul>
+<ul>p (1324.1-1329.54) with page (1293.1-1326.77); page (1327.1-1360.27)</ul>
+<ul>p (1349.1-1363.10) with page (1327.1-1360.27); page (1361.1-1398.25)</ul>
+<ul>p (1429.1-1441.76) with page (1399.1-1433.44); page (1434.1-1467.70)</ul>
+<ul>p (1464.1-1489.64) with page (1434.1-1467.70); page (1468.1-1499.22)</ul>
+<ul>p (1491.1-1501.58) with page (1468.1-1499.22); page (1500.1-1532.29)</ul>
+<ul>p (1530.1-1551.8) with page (1500.1-1532.29); page (1533.1-1563.72)</ul>
+<ul>p (1553.1-1583.36) with page (1533.1-1563.72); page (1564.1-1595.57)</ul>
+<ul>p (1592.1-1605.31) with page (1564.1-1595.57); page (1596.1-1629.12)</ul>
+<ul>p (1617.1-1639.50) with page (1596.1-1629.12); page (1630.1-1662.28)</ul>
+<ul>p (1652.1-1675.42) with page (1630.1-1662.28); page (1663.1-1697.21)</ul>
+<ul>p (1695.1-1709.42) with page (1663.1-1697.21); page (1698.1-1730.15)</ul>
+<ul>p (1753.1-1781.49) with page (1731.1-1764.70); page (1765.1-1798.19)</ul>
+<ul>p (1796.1-1804.70) with page (1765.1-1798.19); page (1799.1-1839.36)</ul>
+<ul>p (1833.1-1852.16) with page (1799.1-1839.36); page (1840.1-1879.25)</ul>
+<ul>p (1869.1-1884.44) with page (1840.1-1879.25); page (1880.1-1916.51)</ul>
+<ul>p (1957.1-1960.73) with page (1917.1-1958.13); page (1959.1-1992.74)</ul>
+<ul>p (1987.1-1999.12) with page (1959.1-1992.74); page (1993.1-2026.21)</ul>
+<ul>p (2024.1-2037.48) with page (1993.1-2026.21); page (2027.1-2059.23)</ul>
+<ul>p (2044.1-2063.41) with page (2027.1-2059.23); page (2060.1-2095.59)</ul>
+<ul>p (2126.1-2139.17) with page (2096.1-2128.35); page (2129.1-2162.48)</ul>
+<ul>p (2183.1-2199.45) with page (2163.1-2196.70); page (2197.1-2231.56)</ul>
+<ul>p (2231.1-2233.26) with page (2197.1-2231.56); page (2232.1-2268.30)</ul>
+<ul>p (2264.1-2271.34) with page (2232.1-2268.30); page (2269.1-2312.6)</ul>
+<ul>p (2309.1-2320.47) with page (2269.1-2312.6); page (2313.1-2346.98)</ul>
+<ul>p (2344.1-2350.18) with page (2313.1-2346.98); page (2347.1-2383.29)</ul>
+<ul>p (2378.1-2390.24) with page (2347.1-2383.29); page (2384.1-2417.11)</ul>
+<ul>p (2412.1-2420.61) with page (2384.1-2417.11); page (2418.1-2451.76)</ul>
+<ul>p (2449.1-2466.48) with page (2418.1-2451.76); page (2452.1-2489.9)</ul>
+<ul>p (2484.1-2491.38) with page (2452.1-2489.9); page (2490.1-2534.23)</ul>
+<ul>p (2533.1-2536.49) with page (2490.1-2534.23); page (2535.1-2572.42)</ul>
+<ul>p (2570.1-2574.77) with page (2535.1-2572.42); page (2573.1-2604.81)</ul>
+<ul>p (2595.1-2607.17) with page (2573.1-2604.81); page (2605.1-2612.63)</ul>
+<ul>p (2609.1-2624.43) with page (2605.1-2612.63); page (2613.1-2673.66)</ul>
+<ul>p (2655.1-2663.56) with q (2656.1-2669.13)</ul>
+<ul>p (2671.1-2676.57) with page (2613.1-2673.66); page (2674.1-2707.38)</ul>
+<ul>p (2700.1-2713.48) with page (2674.1-2707.38); page (2708.1-2747.63)</ul>
+<ul>p (2747.1-2753.41) with page (2708.1-2747.63); page (2748.1-2788.13)</ul>
+<ul>p (2787.1-2794.43) with page (2748.1-2788.13); page (2789.1-2826.42)</ul>
+<ul>p (2824.1-2829.75) with page (2789.1-2826.42); page (2827.1-2862.34)</ul>
+<ul>p (2858.1-2871.21) with page (2827.1-2862.34); page (2863.1-2894.18)</ul>
+<ul>p (2921.1-2939.74) with page (2895.1-2932.47); page (2933.1-2964.23)</ul>
+<ul>p (2957.1-2966.70) with page (2933.1-2964.23); page (2965.1-2998.6)</ul>
+<ul>p (2991.1-3002.57) with page (2965.1-2998.6); page (2999.1-3033.28)</ul>
+<ul>p (3026.1-3043.45) with page (2999.1-3033.28); page (3034.1-3068.38)</ul>
+<ul>p (3067.1-3074.73) with page (3034.1-3068.38); page (3069.1-3100.59)</ul>
+<ul>p (3100.1-3114.60) with page (3069.1-3100.59); page (3101.1-3131.77)</ul>
+<ul>p (3116.1-3150.9) with page (3101.1-3131.77); page (3132.1-3175.9)</ul>
+<ul>p (3169.1-3183.16) with page (3132.1-3175.9); page (3176.1-3213.49)</ul>
+<ul>p (3210.1-3225.24) with page (3176.1-3213.49); page (3214.1-3246.38)</ul>
+<ul>p (3231.1-3254.50) with page (3214.1-3246.38); page (3247.1-3282.18)</ul>
+<ul>p (3277.1-3291.8) with page (3247.1-3282.18); page (3283.1-3313.56)</ul>
+<ul>p (3297.1-3315.21) with page (3283.1-3313.56); page (3314.1-3348.60)</ul>
+<ul>p (3348.1-3355.12) with page (3314.1-3348.60); page (3349.1-3381.61)</ul>
+<ul>p (3373.1-3383.12) with page (3349.1-3381.61); page (3382.1-3416.53)</ul>
+<ul>p (3416.1-3436.8) with page (3382.1-3416.53); page (3417.1-3452.44)</ul>
+<ul>p (3451.1-3459.64) with page (3417.1-3452.44); page (3453.1-3485.75)</ul>
+<ul>p (3480.1-3500.12) with page (3453.1-3485.75); page (3486.1-3517.82)</ul>
+<ul>p (3513.1-3524.10) with page (3486.1-3517.82); page (3518.1-3552.61)</ul>
+<ul>p (3552.1-3554.39) with page (3518.1-3552.61); page (3553.1-3588.43)</ul>
+<ul>p (3587.1-3592.40) with page (3553.1-3588.43); page (3589.1-3631.47)</ul>
+<ul>p (3607.1-3637.23) with page (3589.1-3631.47); page (3632.1-3667.16)</ul>
+<ul>p (3704.1-3717.15) with page (3668.1-3704.56); page (3705.1-3741.76)</ul>
+<ul>p (3739.1-3747.28) with page (3705.1-3741.76); page (3742.1-3775.39)</ul>
+<ul>p (3769.1-3779.35) with page (3742.1-3775.39); page (3776.1-3809.16)</ul>
+<ul>p (3847.1-3851.14) with page (3810.1-3847.60); page (3848.1-3883.59)</ul>
+<ul>p (3883.1-3887.37) with page (3848.1-3883.59); page (3884.1-3916.47)</ul>
+<ul>p (3908.1-3920.41) with page (3884.1-3916.47); page (3917.1-3953.26)</ul>
+<ul>p (3952.1-3960.34) with page (3917.1-3953.26); page (3954.1-3988.17)</ul>
+<ul>p (3986.1-3992.33) with page (3954.1-3988.17); page (3989.1-4023.45)</ul>
+<ul>p (4022.1-4029.9) with page (3989.1-4023.45); page (4024.1-4058.61)</ul>
+<ul>p (4053.1-4064.14) with page (4024.1-4058.61); page (4059.1-4093.62)</ul>
+<ul>p (4090.1-4097.34) with page (4059.1-4093.62); page (4094.1-4126.43)</ul>
+<ul>p (4125.1-4131.40) with page (4094.1-4126.43); page (4127.1-4163.61)</ul>
+<ul>p (4163.1-4175.24) with page (4127.1-4163.61); page (4164.1-4202.71)</ul>
+<ul>p (4200.1-4213.66) with page (4164.1-4202.71); page (4203.1-4233.21)</ul>
+<ul>p (4299.1-4308.14) with page (4268.1-4301.19); page (4302.1-4339.44)</ul>
+<ul>p (4338.1-4342.12) with page (4302.1-4339.44); page (4340.1-4383.81)</ul>
+<ul>p (4383.1-4386.23) with page (4340.1-4383.81); page (4384.1-4422.15)</ul>
+<ul>p (4458.1-4468.15) with page (4423.1-4458.64); page (4459.1-4493.102)</ul>
+<ul>p (4493.1-4497.37) with page (4459.1-4493.102); page (4494.1-4529.31)</ul>
+<ul>p (4524.1-4535.11) with page (4494.1-4529.31); page (4530.1-4565.32)</ul>
+<ul>p (4561.1-4578.12) with page (4530.1-4565.32); page (4566.1-4599.25)</ul>
+<ul>p (4591.1-4609.36) with page (4566.1-4599.25); page (4600.1-4636.41)</ul>
+<ul>p (4635.1-4640.43) with page (4600.1-4636.41); page (4637.1-4677.37)</ul>
+<ul>p (4676.1-4684.62) with page (4637.1-4677.37); page (4678.1-4713.24)</ul>
+<ul>p (4711.1-4720.39) with page (4678.1-4713.24); page (4714.1-4746.48)</ul>
+<ul>p (4742.1-4757.53) with page (4714.1-4746.48); page (4747.1-4778.56)</ul>
+<ul>p (4775.1-4791.13) with page (4747.1-4778.56); page (4779.1-4812.44)</ul>
+<ul>p (4809.1-4816.13) with page (4779.1-4812.44); page (4813.1-4847.49)</ul>
+<ul>p (4845.1-4851.27) with page (4813.1-4847.49); page (4848.1-4881.65)</ul>
+<ul>p (4876.1-4888.8) with page (4848.1-4881.65); page (4882.1-4912.23)</ul>
+<ul>p (4893.1-4915.9) with page (4882.1-4912.23); page (4913.1-4946.79)</ul>
+<ul>p (4941.1-4954.16) with page (4913.1-4946.79); page (4947.1-4978.81)</ul>
+<ul>p (4967.1-4982.71) with page (4947.1-4978.81); page (4979.1-5013.56)</ul>
+<ul>p (5013.1-5024.30) with page (4979.1-5013.56); page (5014.1-5046.57)</ul>
+<ul>p (5043.1-5056.23) with page (5014.1-5046.57); page (5047.1-5078.162)</ul>
+<ul>p (5072.1-5097.75) with page (5047.1-5078.162); page (5079.1-5107.28)</ul>
+<ul>p (5099.1-5123.8) with page (5079.1-5107.28); page (5108.1-5151.15)</ul>
+<ul>p (5176.1-5193.13) with page (5152.1-5185.54); page (5186.1-5220.45)</ul>
+<ul>p (5217.1-5233.20) with page (5186.1-5220.45); page (5221.1-5253.62)</ul>
+<ul>p (5245.1-5255.36) with page (5221.1-5253.62); page (5254.1-5288.58)</ul>
+<ul>p (5285.1-5302.50) with page (5254.1-5288.58); page (5289.1-5321.80)</ul>
+<ul>p (5357.1-5366.19) with page (5322.1-5360.19); page (5361.1-5390.15)</ul>
+<ul>p (5415.1-5426.41) with page (5391.1-5421.53); page (5422.1-5457.36)</ul>
+<ul>p (5455.1-5461.78) with page (5422.1-5457.36); page (5458.1-5493.81)</ul>
+<ul>p (5488.1-5499.31) with page (5458.1-5493.81); page (5494.1-5532.43)</ul>
+<ul>p (5531.1-5541.11) with page (5494.1-5532.43); page (5533.1-5565.68)</ul>
+<ul>p (5595.1-5611.11) with page (5566.1-5600.19); page (5601.1-5632.79)</ul>
+<ul>p (5739.1-5745.25) with page (5710.1-5742.47); page (5743.1-5779.40)</ul>
+<ul>p (5772.1-5782.40) with page (5743.1-5779.40); page (5780.1-5815.35)</ul>
+<ul>p (5814.1-5822.43) with page (5780.1-5815.35); page (5816.1-5851.14)</ul>
+<ul>p (5849.1-5856.61) with page (5816.1-5851.14); page (5852.1-5886.84)</ul>
+<ul>p (5886.1-5888.70) with page (5852.1-5886.84); page (5887.1-5920.7)</ul>
+<ul>p (5916.1-5922.48) with page (5887.1-5920.7); page (5921.1-5956.50)</ul>
+<ul>p (5955.1-5961.10) with page (5921.1-5956.50); page (5957.1-5990.39)</ul>
+<ul>p (5985.1-5996.65) with page (5957.1-5990.39); page (5991.1-6024.75)</ul>
+<ul>p (6022.1-6038.12) with page (5991.1-6024.75); page (6025.1-6054.15)</ul>
+<ul>p (6084.1-6099.24) with page (6055.1-6086.18); page (6087.1-6125.42)</ul>
+<ul>p (6160.1-6179.16) with page (6126.1-6162.15); page (6163.1-6195.52)</ul>
+<ul>p (6187.1-6201.9) with page (6163.1-6195.52); page (6196.1-6229.28)</ul>
+<ul>p (6269.1-6278.19) with page (6230.1-6269.58); page (6270.1-6304.52)</ul>
+<ul>p (6297.1-6307.18) with page (6270.1-6304.52); page (6305.1-6343.62)</ul>
+<ul>p (6416.1-6426.51) with page (6380.1-6417.43); page (6418.1-6451.40)</ul>
+<ul>p (6450.1-6460.8) with page (6418.1-6451.40); page (6452.1-6485.51)</ul>
+<ul>p (6476.1-6488.9) with page (6452.1-6485.51); page (6486.1-6520.11)</ul>
+<ul>p (6514.1-6524.69) with page (6486.1-6520.11); page (6521.1-6556.14)</ul>
+<ul>p (6552.1-6562.67) with page (6521.1-6556.14); page (6557.1-6591.43)</ul>
+<ul>p (6625.1-6629.24) with page (6592.1-6627.76); page (6628.1-6662.23)</ul>
+<ul>p (6654.1-6668.9) with page (6628.1-6662.23); page (6663.1-6697.27)</ul>
+<ul>p (6693.1-6710.71) with page (6663.1-6697.27); page (6698.1-6729.14)</ul>
+<ul>p (6720.1-6738.53) with page (6698.1-6729.14); page (6730.1-6765.43)</ul>
+<ul>p (6764.1-6768.28) with page (6730.1-6765.43); page (6766.1-6796.72)</ul>
+<ul>p (6782.1-6798.10) with page (6766.1-6796.72); page (6797.1-6832.10)</ul>
+<ul>p (6821.1-6836.30) with page (6797.1-6832.10); page (6833.1-6866.71)</ul>
+<ul>p (6858.1-6869.74) with page (6833.1-6866.71); page (6867.1-6897.69)</ul>
+<ul>p (6888.1-6898.32) with page (6867.1-6897.69)</ul>
+<ul>p (6934.1-6941.39) with page (6898.1-6934.61); page (6935.1-6966.67)</ul>
+<ul>p (6964.1-6968.21) with page (6935.1-6966.67); page (6967.1-7001.46)</ul>
+<ul>p (6995.1-7004.13) with page (6967.1-7001.46); page (7002.1-7041.62)</ul>
+<ul>p (7038.1-7050.31) with page (7002.1-7041.62); page (7042.1-7072.25)</ul>
+<ul>p (7052.1-7079.34) with page (7042.1-7072.25); page (7073.1-7115.15)</ul>
+<ul>p (7112.1-7124.34) with page (7073.1-7115.15); page (7116.1-7151.55)</ul>
+<ul>p (7143.1-7165.10) with page (7116.1-7151.55); page (7152.1-7185.81)</ul>
+<ul>p (7143.1-7165.10) with q (7145.77-7181.11)</ul>
+<ul>p (7183.1-7187.17) with page (7152.1-7185.81); page (7186.1-7223.34)</ul>
+<ul>p (7221.1-7227.26) with page (7186.1-7223.34); page (7224.1-7259.16)</ul>
+<ul>p (7252.1-7268.37) with page (7224.1-7259.16); page (7260.1-7292.30)</ul>
+<ul>p (7281.1-7302.12) with page (7260.1-7292.30); page (7293.1-7324.82)</ul>
+<ul>p (7281.1-7302.12) with q (7282.7-7359.15)</ul>
+<ul>p (7317.1-7326.46) with page (7293.1-7324.82); page (7325.1-7356.67)</ul>
+<ul>p (7359.1-7364.15) with q (7282.7-7359.15)</ul>
+</li>
+<li>
+<span class="name">sourceDesc</span> (none)</li>
+<li>
+<span class="name">xref</span> (none)</li>
+<li>
+<span class="name">bibl</span> (none)</li>
+<li>
+<span class="name">gi</span> (none)</li>
+<li>
+<span class="name">revisionDesc</span> (none)</li>
+<li>
+<span class="name">change</span> (none)</li>
+<li>
+<span class="name">date</span> (none)</li>
+<li>
+<span class="name">item</span> (none)</li>
+<li>
+<span class="name">ident</span> (none)</li>
+<li>
+<span class="name">soCalled</span> (none)</li>
+<li>
+<span class="name">not consistently implemented, so removed from this edition &mdash; wap</span> (none)</li>
+<li>
+<span class="name">perhaps the original text was marked up with a non-TEI2 DTD &mdash; wap</span> (none)</li>
+<li>
+<span class="name">text</span> (none)</li>
+<li>
+<span class="name">front</span> (none)</li>
+<li>
+<span class="name">titlePage</span> (none)</li>
+<li>
+<span class="name">docTitle</span> (none)</li>
+<li>
+<span class="name">titlePart</span> (none)</li>
+<li>
+<span class="name">docAuthor</span> (none)</li>
+<li>
+<span class="name">epigraph</span> (none)</li>
+<li>
+<span class="name">lg</span> (none)</li>
+<li>
+<span class="name">l</span> (none)</li>
+<li>
+<span class="name">page</span> overlaps:<ul>page (101.1-125.50) with introduction (102.1-302.14)</ul>
+<ul>page (101.1-125.50) with p (117.1-130.63)</ul>
+<ul>page (126.1-151.15) with p (117.1-130.63); p (147.1-159.13)</ul>
+<ul>page (152.1-178.9) with p (147.1-159.13); p (169.1-187.13)</ul>
+<ul>page (179.1-205.62) with p (169.1-187.13); p (204.1-213.78)</ul>
+<ul>page (206.1-232.68) with p (204.1-213.78); p (228.1-239.65)</ul>
+<ul>page (233.1-256.79) with p (228.1-239.65); p (241.1-260.20)</ul>
+<ul>page (257.1-283.65) with p (241.1-260.20)</ul>
+<ul>page (303.1-335.10) with preface (304.1-363.9)</ul>
+<ul>page (303.1-335.10) with p (332.1-345.29)</ul>
+<ul>page (336.1-364.13) with preface (304.1-363.9)</ul>
+<ul>page (336.1-364.13) with p (332.1-345.29)</ul>
+<ul>page (365.1-392.29) with body (366.1-7370.6)</ul>
+<ul>page (365.1-392.29) with nar (367.1-7369.29)</ul>
+<ul>page (365.1-392.29) with letter (368.1-478.8)</ul>
+<ul>page (365.1-392.29) with p (379.1-408.65)</ul>
+<ul>page (393.1-426.44) with p (379.1-408.65); p (425.1-433.16)</ul>
+<ul>page (427.1-460.64) with p (425.1-433.16); p (457.1-464.58)</ul>
+<ul>page (461.1-496.65) with letter (368.1-478.8); letter (479.1-593.8)</ul>
+<ul>page (461.1-496.65) with p (457.1-464.58); p (491.1-514.33)</ul>
+<ul>page (497.1-528.46) with p (491.1-514.33); p (527.1-557.11)</ul>
+<ul>page (529.1-560.38) with p (527.1-557.11); p (559.1-567.73)</ul>
+<ul>page (561.1-593.14) with p (559.1-567.73)</ul>
+<ul>page (633.1-668.16) with letter (634.1-7369.15)</ul>
+<ul>page (633.1-668.16) with entry (636.1-779.7)</ul>
+<ul>page (633.1-668.16) with p (666.1-671.32)</ul>
+<ul>page (669.1-704.21) with p (666.1-671.32)</ul>
+<ul>page (745.1-786.8) with entry (636.1-779.7); entry (780.1-857.7)</ul>
+<ul>page (745.1-786.8) with p (783.1-789.49)</ul>
+<ul>page (787.1-820.65) with p (783.1-789.49); p (817.1-824.67)</ul>
+<ul>page (821.1-857.13) with p (817.1-824.67)</ul>
+<ul>page (858.1-892.77) with entry (859.1-6884.12)</ul>
+<ul>page (893.1-926.64) with nar (908.1-6884.5)</ul>
+<ul>page (893.1-926.64) with chapter (909.1-1066.9)</ul>
+<ul>page (893.1-926.64) with p (921.1-934.25)</ul>
+<ul>page (927.1-960.19) with p (921.1-934.25); p (955.1-964.28)</ul>
+<ul>page (961.1-993.63) with p (955.1-964.28); p (987.1-1001.69)</ul>
+<ul>page (994.1-1024.19) with p (987.1-1001.69)</ul>
+<ul>page (1025.1-1060.24) with p (1053.1-1065.27)</ul>
+<ul>page (1061.1-1091.44) with chapter (909.1-1066.9); chapter (1067.1-1264.9)</ul>
+<ul>page (1061.1-1091.44) with p (1053.1-1065.27); p (1087.1-1104.12)</ul>
+<ul>page (1092.1-1125.78) with p (1087.1-1104.12); p (1123.1-1138.12)</ul>
+<ul>page (1126.1-1158.66) with p (1123.1-1138.12); p (1150.1-1161.53)</ul>
+<ul>page (1159.1-1191.80) with p (1150.1-1161.53); p (1187.1-1194.51)</ul>
+<ul>page (1192.1-1225.45) with p (1187.1-1194.51); p (1219.1-1231.13)</ul>
+<ul>page (1226.1-1258.59) with p (1219.1-1231.13)</ul>
+<ul>page (1259.1-1292.29) with chapter (1067.1-1264.9); chapter (1265.1-1510.9)</ul>
+<ul>page (1259.1-1292.29) with p (1276.1-1296.12)</ul>
+<ul>page (1259.1-1292.29) with q (1288.7-1296.9)</ul>
+<ul>page (1293.1-1326.77) with p (1276.1-1296.12); p (1324.1-1329.54)</ul>
+<ul>page (1293.1-1326.77) with q (1288.7-1296.9)</ul>
+<ul>page (1327.1-1360.27) with p (1324.1-1329.54); p (1349.1-1363.10)</ul>
+<ul>page (1361.1-1398.25) with p (1349.1-1363.10)</ul>
+<ul>page (1399.1-1433.44) with p (1429.1-1441.76)</ul>
+<ul>page (1434.1-1467.70) with p (1429.1-1441.76); p (1464.1-1489.64)</ul>
+<ul>page (1468.1-1499.22) with p (1464.1-1489.64); p (1491.1-1501.58)</ul>
+<ul>page (1468.1-1499.22) with q (1492.1-1501.55)</ul>
+<ul>page (1500.1-1532.29) with chapter (1265.1-1510.9); chapter (1511.1-1730.9)</ul>
+<ul>page (1500.1-1532.29) with p (1491.1-1501.58); p (1530.1-1551.8)</ul>
+<ul>page (1500.1-1532.29) with q (1492.1-1501.55)</ul>
+<ul>page (1533.1-1563.72) with p (1530.1-1551.8); p (1553.1-1583.36)</ul>
+<ul>page (1564.1-1595.57) with p (1553.1-1583.36); p (1592.1-1605.31)</ul>
+<ul>page (1596.1-1629.12) with p (1592.1-1605.31); p (1617.1-1639.50)</ul>
+<ul>page (1630.1-1662.28) with p (1617.1-1639.50); p (1652.1-1675.42)</ul>
+<ul>page (1663.1-1697.21) with p (1652.1-1675.42); p (1695.1-1709.42)</ul>
+<ul>page (1698.1-1730.15) with p (1695.1-1709.42)</ul>
+<ul>page (1731.1-1764.70) with chapter (1732.1-1965.9)</ul>
+<ul>page (1731.1-1764.70) with p (1753.1-1781.49)</ul>
+<ul>page (1765.1-1798.19) with p (1753.1-1781.49); p (1796.1-1804.70)</ul>
+<ul>page (1799.1-1839.36) with p (1796.1-1804.70); p (1833.1-1852.16)</ul>
+<ul>page (1840.1-1879.25) with p (1833.1-1852.16); p (1869.1-1884.44)</ul>
+<ul>page (1880.1-1916.51) with p (1869.1-1884.44)</ul>
+<ul>page (1917.1-1958.13) with p (1957.1-1960.73)</ul>
+<ul>page (1917.1-1958.13) with q (1957.4-1960.70)</ul>
+<ul>page (1959.1-1992.74) with chapter (1732.1-1965.9); chapter (1966.1-2212.9)</ul>
+<ul>page (1959.1-1992.74) with p (1957.1-1960.73); p (1987.1-1999.12)</ul>
+<ul>page (1959.1-1992.74) with q (1957.4-1960.70)</ul>
+<ul>page (1959.1-1992.74) with letter (1970.15-2089.8)</ul>
+<ul>page (1993.1-2026.21) with p (1987.1-1999.12); p (2024.1-2037.48)</ul>
+<ul>page (2027.1-2059.23) with p (2024.1-2037.48); p (2044.1-2063.41)</ul>
+<ul>page (2060.1-2095.59) with letter (1970.15-2089.8)</ul>
+<ul>page (2060.1-2095.59) with p (2044.1-2063.41)</ul>
+<ul>page (2096.1-2128.35) with p (2126.1-2139.17)</ul>
+<ul>page (2129.1-2162.48) with p (2126.1-2139.17)</ul>
+<ul>page (2163.1-2196.70) with p (2183.1-2199.45)</ul>
+<ul>page (2197.1-2231.56) with chapter (1966.1-2212.9); chapter (2213.1-2576.9)</ul>
+<ul>page (2197.1-2231.56) with p (2183.1-2199.45); p (2231.1-2233.26)</ul>
+<ul>page (2197.1-2231.56) with letter (2217.1-2287.8)</ul>
+<ul>page (2232.1-2268.30) with p (2231.1-2233.26); p (2264.1-2271.34)</ul>
+<ul>page (2269.1-2312.6) with letter (2217.1-2287.8)</ul>
+<ul>page (2269.1-2312.6) with p (2264.1-2271.34); p (2309.1-2320.47)</ul>
+<ul>page (2269.1-2312.6) with q (2311.22-2320.44)</ul>
+<ul>page (2313.1-2346.98) with p (2309.1-2320.47); p (2344.1-2350.18)</ul>
+<ul>page (2313.1-2346.98) with q (2311.22-2320.44); q (2346.51-2350.15)</ul>
+<ul>page (2347.1-2383.29) with p (2344.1-2350.18); p (2378.1-2390.24)</ul>
+<ul>page (2347.1-2383.29) with q (2346.51-2350.15)</ul>
+<ul>page (2384.1-2417.11) with p (2378.1-2390.24); p (2412.1-2420.61)</ul>
+<ul>page (2418.1-2451.76) with p (2412.1-2420.61); p (2449.1-2466.48)</ul>
+<ul>page (2452.1-2489.9) with p (2449.1-2466.48); p (2484.1-2491.38)</ul>
+<ul>page (2452.1-2489.9) with q (2485.31-2491.35)</ul>
+<ul>page (2490.1-2534.23) with p (2484.1-2491.38); p (2533.1-2536.49)</ul>
+<ul>page (2490.1-2534.23) with q (2485.31-2491.35); q (2533.4-2536.46)</ul>
+<ul>page (2535.1-2572.42) with p (2533.1-2536.49); p (2570.1-2574.77)</ul>
+<ul>page (2535.1-2572.42) with q (2533.4-2536.46); q (2571.1-2574.74)</ul>
+<ul>page (2573.1-2604.81) with chapter (2213.1-2576.9); chapter (2577.1-2876.9)</ul>
+<ul>page (2573.1-2604.81) with p (2570.1-2574.77); p (2595.1-2607.17)</ul>
+<ul>page (2573.1-2604.81) with q (2571.1-2574.74)</ul>
+<ul>page (2605.1-2612.63) with p (2595.1-2607.17); p (2609.1-2624.43)</ul>
+<ul>page (2613.1-2673.66) with p (2609.1-2624.43); p (2671.1-2676.57)</ul>
+<ul>page (2674.1-2707.38) with p (2671.1-2676.57); p (2700.1-2713.48)</ul>
+<ul>page (2708.1-2747.63) with p (2700.1-2713.48); p (2747.1-2753.41)</ul>
+<ul>page (2748.1-2788.13) with p (2747.1-2753.41); p (2787.1-2794.43)</ul>
+<ul>page (2748.1-2788.13) with q (2787.44-2794.40)</ul>
+<ul>page (2789.1-2826.42) with p (2787.1-2794.43); p (2824.1-2829.75)</ul>
+<ul>page (2789.1-2826.42) with q (2787.44-2794.40); q (2824.4-2829.72)</ul>
+<ul>page (2827.1-2862.34) with p (2824.1-2829.75); p (2858.1-2871.21)</ul>
+<ul>page (2827.1-2862.34) with q (2824.4-2829.72)</ul>
+<ul>page (2863.1-2894.18) with chapter (2577.1-2876.9); chapter (2877.1-3075.9)</ul>
+<ul>page (2863.1-2894.18) with p (2858.1-2871.21)</ul>
+<ul>page (2895.1-2932.47) with p (2921.1-2939.74)</ul>
+<ul>page (2933.1-2964.23) with p (2921.1-2939.74); p (2957.1-2966.70)</ul>
+<ul>page (2965.1-2998.6) with p (2957.1-2966.70); p (2991.1-3002.57)</ul>
+<ul>page (2965.1-2998.6) with q (2993.34-3002.54)</ul>
+<ul>page (2999.1-3033.28) with p (2991.1-3002.57); p (3026.1-3043.45)</ul>
+<ul>page (2999.1-3033.28) with q (2993.34-3002.54)</ul>
+<ul>page (3034.1-3068.38) with p (3026.1-3043.45); p (3067.1-3074.73)</ul>
+<ul>page (3069.1-3100.59) with chapter (2877.1-3075.9); chapter (3076.1-3292.9)</ul>
+<ul>page (3069.1-3100.59) with p (3067.1-3074.73); p (3100.1-3114.60)</ul>
+<ul>page (3101.1-3131.77) with p (3100.1-3114.60); p (3116.1-3150.9)</ul>
+<ul>page (3132.1-3175.9) with p (3116.1-3150.9); p (3169.1-3183.16)</ul>
+<ul>page (3176.1-3213.49) with p (3169.1-3183.16); p (3210.1-3225.24)</ul>
+<ul>page (3176.1-3213.49) with q (3210.34-3225.21)</ul>
+<ul>page (3214.1-3246.38) with p (3210.1-3225.24); p (3231.1-3254.50)</ul>
+<ul>page (3214.1-3246.38) with q (3210.34-3225.21); q (3231.4-3254.47)</ul>
+<ul>page (3247.1-3282.18) with p (3231.1-3254.50); p (3277.1-3291.8)</ul>
+<ul>page (3247.1-3282.18) with q (3231.4-3254.47)</ul>
+<ul>page (3283.1-3313.56) with chapter (3076.1-3292.9); chapter (3294.1-3540.9)</ul>
+<ul>page (3283.1-3313.56) with p (3277.1-3291.8); p (3297.1-3315.21)</ul>
+<ul>page (3283.1-3313.56) with nar (3293.1-4722.5)</ul>
+<ul>page (3314.1-3348.60) with p (3297.1-3315.21); p (3348.1-3355.12)</ul>
+<ul>page (3349.1-3381.61) with p (3348.1-3355.12); p (3373.1-3383.12)</ul>
+<ul>page (3382.1-3416.53) with p (3373.1-3383.12); p (3416.1-3436.8)</ul>
+<ul>page (3417.1-3452.44) with p (3416.1-3436.8); p (3451.1-3459.64)</ul>
+<ul>page (3453.1-3485.75) with p (3451.1-3459.64); p (3480.1-3500.12)</ul>
+<ul>page (3486.1-3517.82) with p (3480.1-3500.12); p (3513.1-3524.10)</ul>
+<ul>page (3518.1-3552.61) with chapter (3294.1-3540.9); chapter (3541.1-3748.9)</ul>
+<ul>page (3518.1-3552.61) with p (3513.1-3524.10); p (3552.1-3554.39)</ul>
+<ul>page (3553.1-3588.43) with p (3552.1-3554.39); p (3587.1-3592.40)</ul>
+<ul>page (3589.1-3631.47) with p (3587.1-3592.40); p (3607.1-3637.23)</ul>
+<ul>page (3632.1-3667.16) with p (3607.1-3637.23)</ul>
+<ul>page (3668.1-3704.56) with p (3704.1-3717.15)</ul>
+<ul>page (3705.1-3741.76) with p (3704.1-3717.15); p (3739.1-3747.28)</ul>
+<ul>page (3742.1-3775.39) with chapter (3541.1-3748.9); chapter (3749.1-3943.9)</ul>
+<ul>page (3742.1-3775.39) with p (3739.1-3747.28); p (3769.1-3779.35)</ul>
+<ul>page (3776.1-3809.16) with p (3769.1-3779.35)</ul>
+<ul>page (3810.1-3847.60) with p (3847.1-3851.14)</ul>
+<ul>page (3848.1-3883.59) with p (3847.1-3851.14); p (3883.1-3887.37)</ul>
+<ul>page (3884.1-3916.47) with p (3883.1-3887.37); p (3908.1-3920.41)</ul>
+<ul>page (3917.1-3953.26) with chapter (3749.1-3943.9); chapter (3944.1-4117.9)</ul>
+<ul>page (3917.1-3953.26) with p (3908.1-3920.41); p (3952.1-3960.34)</ul>
+<ul>page (3954.1-3988.17) with p (3952.1-3960.34); p (3986.1-3992.33)</ul>
+<ul>page (3989.1-4023.45) with p (3986.1-3992.33); p (4022.1-4029.9)</ul>
+<ul>page (4024.1-4058.61) with p (4022.1-4029.9); p (4053.1-4064.14)</ul>
+<ul>page (4059.1-4093.62) with p (4053.1-4064.14); p (4090.1-4097.34)</ul>
+<ul>page (4094.1-4126.43) with chapter (3944.1-4117.9); chapter (4118.1-4422.9)</ul>
+<ul>page (4094.1-4126.43) with p (4090.1-4097.34); p (4125.1-4131.40)</ul>
+<ul>page (4127.1-4163.61) with p (4125.1-4131.40); p (4163.1-4175.24)</ul>
+<ul>page (4164.1-4202.71) with p (4163.1-4175.24); p (4200.1-4213.66)</ul>
+<ul>page (4203.1-4233.21) with p (4200.1-4213.66)</ul>
+<ul>page (4268.1-4301.19) with p (4299.1-4308.14)</ul>
+<ul>page (4302.1-4339.44) with p (4299.1-4308.14); p (4338.1-4342.12)</ul>
+<ul>page (4302.1-4339.44) with q (4338.4-4342.9)</ul>
+<ul>page (4340.1-4383.81) with p (4338.1-4342.12); p (4383.1-4386.23)</ul>
+<ul>page (4340.1-4383.81) with q (4338.4-4342.9); q (4383.4-4386.20)</ul>
+<ul>page (4384.1-4422.15) with p (4383.1-4386.23)</ul>
+<ul>page (4384.1-4422.15) with q (4383.4-4386.20)</ul>
+<ul>page (4423.1-4458.64) with chapter (4424.1-4721.9)</ul>
+<ul>page (4423.1-4458.64) with p (4458.1-4468.15)</ul>
+<ul>page (4459.1-4493.102) with p (4458.1-4468.15); p (4493.1-4497.37)</ul>
+<ul>page (4459.1-4493.102) with q (4493.72-4497.34)</ul>
+<ul>page (4494.1-4529.31) with p (4493.1-4497.37); p (4524.1-4535.11)</ul>
+<ul>page (4494.1-4529.31) with q (4493.72-4497.34)</ul>
+<ul>page (4530.1-4565.32) with p (4524.1-4535.11); p (4561.1-4578.12)</ul>
+<ul>page (4566.1-4599.25) with p (4561.1-4578.12); p (4591.1-4609.36)</ul>
+<ul>page (4600.1-4636.41) with p (4591.1-4609.36); p (4635.1-4640.43)</ul>
+<ul>page (4637.1-4677.37) with p (4635.1-4640.43); p (4676.1-4684.62)</ul>
+<ul>page (4678.1-4713.24) with p (4676.1-4684.62); p (4711.1-4720.39)</ul>
+<ul>page (4714.1-4746.48) with nar (3293.1-4722.5)</ul>
+<ul>page (4714.1-4746.48) with chapter (4424.1-4721.9); chapter (4723.1-4889.9)</ul>
+<ul>page (4714.1-4746.48) with p (4711.1-4720.39); p (4742.1-4757.53)</ul>
+<ul>page (4714.1-4746.48) with q (4742.69-4757.50)</ul>
+<ul>page (4747.1-4778.56) with p (4742.1-4757.53); p (4775.1-4791.13)</ul>
+<ul>page (4747.1-4778.56) with q (4742.69-4757.50)</ul>
+<ul>page (4779.1-4812.44) with p (4775.1-4791.13); p (4809.1-4816.13)</ul>
+<ul>page (4813.1-4847.49) with p (4809.1-4816.13); p (4845.1-4851.27)</ul>
+<ul>page (4813.1-4847.49) with q (4845.47-4851.24)</ul>
+<ul>page (4848.1-4881.65) with p (4845.1-4851.27); p (4876.1-4888.8)</ul>
+<ul>page (4848.1-4881.65) with q (4845.47-4851.24)</ul>
+<ul>page (4882.1-4912.23) with chapter (4723.1-4889.9); chapter (4890.1-5151.9)</ul>
+<ul>page (4882.1-4912.23) with p (4876.1-4888.8); p (4893.1-4915.9)</ul>
+<ul>page (4913.1-4946.79) with p (4893.1-4915.9); p (4941.1-4954.16)</ul>
+<ul>page (4913.1-4946.79) with q (4941.4-4954.13)</ul>
+<ul>page (4947.1-4978.81) with p (4941.1-4954.16); p (4967.1-4982.71)</ul>
+<ul>page (4947.1-4978.81) with q (4941.4-4954.13)</ul>
+<ul>page (4979.1-5013.56) with p (4967.1-4982.71); p (5013.1-5024.30)</ul>
+<ul>page (5014.1-5046.57) with p (5013.1-5024.30); p (5043.1-5056.23)</ul>
+<ul>page (5047.1-5078.162) with p (5043.1-5056.23); p (5072.1-5097.75)</ul>
+<ul>page (5047.1-5078.162) with q (5078.118-5097.72)</ul>
+<ul>page (5079.1-5107.28) with p (5072.1-5097.75); p (5099.1-5123.8)</ul>
+<ul>page (5079.1-5107.28) with q (5078.118-5097.72)</ul>
+<ul>page (5108.1-5151.15) with p (5099.1-5123.8)</ul>
+<ul>page (5152.1-5185.54) with chapter (5153.1-5390.9)</ul>
+<ul>page (5152.1-5185.54) with p (5176.1-5193.13)</ul>
+<ul>page (5186.1-5220.45) with p (5176.1-5193.13); p (5217.1-5233.20)</ul>
+<ul>page (5221.1-5253.62) with p (5217.1-5233.20); p (5245.1-5255.36)</ul>
+<ul>page (5254.1-5288.58) with p (5245.1-5255.36); p (5285.1-5302.50)</ul>
+<ul>page (5289.1-5321.80) with p (5285.1-5302.50)</ul>
+<ul>page (5322.1-5360.19) with p (5357.1-5366.19)</ul>
+<ul>page (5361.1-5390.15) with p (5357.1-5366.19)</ul>
+<ul>page (5391.1-5421.53) with chapter (5392.1-5709.9)</ul>
+<ul>page (5391.1-5421.53) with p (5415.1-5426.41)</ul>
+<ul>page (5422.1-5457.36) with p (5415.1-5426.41); p (5455.1-5461.78)</ul>
+<ul>page (5458.1-5493.81) with p (5455.1-5461.78); p (5488.1-5499.31)</ul>
+<ul>page (5458.1-5493.81) with q (5489.71-5499.28)</ul>
+<ul>page (5494.1-5532.43) with p (5488.1-5499.31); p (5531.1-5541.11)</ul>
+<ul>page (5494.1-5532.43) with q (5489.71-5499.28)</ul>
+<ul>page (5533.1-5565.68) with p (5531.1-5541.11)</ul>
+<ul>page (5566.1-5600.19) with p (5595.1-5611.11)</ul>
+<ul>page (5601.1-5632.79) with p (5595.1-5611.11)</ul>
+<ul>page (5710.1-5742.47) with chapter (5711.1-6054.9)</ul>
+<ul>page (5710.1-5742.47) with p (5739.1-5745.25)</ul>
+<ul>page (5743.1-5779.40) with p (5739.1-5745.25); p (5772.1-5782.40)</ul>
+<ul>page (5780.1-5815.35) with p (5772.1-5782.40); p (5814.1-5822.43)</ul>
+<ul>page (5816.1-5851.14) with p (5814.1-5822.43); p (5849.1-5856.61)</ul>
+<ul>page (5852.1-5886.84) with p (5849.1-5856.61); p (5886.1-5888.70)</ul>
+<ul>page (5852.1-5886.84) with q (5886.4-5888.67)</ul>
+<ul>page (5887.1-5920.7) with p (5886.1-5888.70); p (5916.1-5922.48)</ul>
+<ul>page (5887.1-5920.7) with q (5886.4-5888.67)</ul>
+<ul>page (5921.1-5956.50) with p (5916.1-5922.48); p (5955.1-5961.10)</ul>
+<ul>page (5957.1-5990.39) with p (5955.1-5961.10); p (5985.1-5996.65)</ul>
+<ul>page (5991.1-6024.75) with p (5985.1-5996.65); p (6022.1-6038.12)</ul>
+<ul>page (6025.1-6054.15) with p (6022.1-6038.12)</ul>
+<ul>page (6055.1-6086.18) with chapter (6056.1-6379.9)</ul>
+<ul>page (6055.1-6086.18) with p (6084.1-6099.24)</ul>
+<ul>page (6087.1-6125.42) with p (6084.1-6099.24)</ul>
+<ul>page (6126.1-6162.15) with p (6160.1-6179.16)</ul>
+<ul>page (6163.1-6195.52) with letter (6126.30-6186.8)</ul>
+<ul>page (6163.1-6195.52) with p (6160.1-6179.16); p (6187.1-6201.9)</ul>
+<ul>page (6196.1-6229.28) with p (6187.1-6201.9)</ul>
+<ul>page (6230.1-6269.58) with p (6269.1-6278.19)</ul>
+<ul>page (6270.1-6304.52) with p (6269.1-6278.19); p (6297.1-6307.18)</ul>
+<ul>page (6305.1-6343.62) with p (6297.1-6307.18)</ul>
+<ul>page (6380.1-6417.43) with chapter (6381.1-6621.9)</ul>
+<ul>page (6380.1-6417.43) with p (6416.1-6426.51)</ul>
+<ul>page (6418.1-6451.40) with p (6416.1-6426.51); p (6450.1-6460.8)</ul>
+<ul>page (6452.1-6485.51) with p (6450.1-6460.8); p (6476.1-6488.9)</ul>
+<ul>page (6486.1-6520.11) with p (6476.1-6488.9); p (6514.1-6524.69)</ul>
+<ul>page (6521.1-6556.14) with p (6514.1-6524.69); p (6552.1-6562.67)</ul>
+<ul>page (6521.1-6556.14) with q (6552.52-6558.13)</ul>
+<ul>page (6557.1-6591.43) with p (6552.1-6562.67)</ul>
+<ul>page (6557.1-6591.43) with q (6552.52-6558.13)</ul>
+<ul>page (6592.1-6627.76) with chapter (6381.1-6621.9); chapter (6622.1-7369.24)</ul>
+<ul>page (6592.1-6627.76) with p (6625.1-6629.24)</ul>
+<ul>page (6628.1-6662.23) with p (6625.1-6629.24); p (6654.1-6668.9)</ul>
+<ul>page (6628.1-6662.23) with q (6657.53-6668.6)</ul>
+<ul>page (6663.1-6697.27) with p (6654.1-6668.9); p (6693.1-6710.71)</ul>
+<ul>page (6663.1-6697.27) with q (6657.53-6668.6)</ul>
+<ul>page (6698.1-6729.14) with p (6693.1-6710.71); p (6720.1-6738.53)</ul>
+<ul>page (6730.1-6765.43) with p (6720.1-6738.53); p (6764.1-6768.28)</ul>
+<ul>page (6766.1-6796.72) with p (6764.1-6768.28); p (6782.1-6798.10)</ul>
+<ul>page (6797.1-6832.10) with p (6782.1-6798.10); p (6821.1-6836.30)</ul>
+<ul>page (6833.1-6866.71) with p (6821.1-6836.30); p (6858.1-6869.74)</ul>
+<ul>page (6867.1-6897.69) with entry (859.1-6884.12); entry (6885.1-6990.7)</ul>
+<ul>page (6867.1-6897.69) with nar (908.1-6884.5)</ul>
+<ul>page (6867.1-6897.69) with p (6858.1-6869.74); p (6888.1-6898.32)</ul>
+<ul>page (6898.1-6934.61) with p (6934.1-6941.39)</ul>
+<ul>page (6935.1-6966.67) with p (6934.1-6941.39); p (6964.1-6968.21)</ul>
+<ul>page (6967.1-7001.46) with entry (6885.1-6990.7); entry (6991.1-7023.7)</ul>
+<ul>page (6967.1-7001.46) with p (6964.1-6968.21); p (6995.1-7004.13)</ul>
+<ul>page (7002.1-7041.62) with entry (6991.1-7023.7); entry (7024.1-7095.7)</ul>
+<ul>page (7002.1-7041.62) with p (6995.1-7004.13); p (7038.1-7050.31)</ul>
+<ul>page (7042.1-7072.25) with p (7038.1-7050.31); p (7052.1-7079.34)</ul>
+<ul>page (7042.1-7072.25) with q (7057.53-7079.31)</ul>
+<ul>page (7073.1-7115.15) with entry (7024.1-7095.7); entry (7104.1-7369.7)</ul>
+<ul>page (7073.1-7115.15) with p (7052.1-7079.34); p (7112.1-7124.34)</ul>
+<ul>page (7073.1-7115.15) with q (7057.53-7079.31)</ul>
+<ul>page (7116.1-7151.55) with p (7112.1-7124.34); p (7143.1-7165.10)</ul>
+<ul>page (7116.1-7151.55) with q (7145.77-7181.11)</ul>
+<ul>page (7152.1-7185.81) with p (7143.1-7165.10); p (7183.1-7187.17)</ul>
+<ul>page (7152.1-7185.81) with q (7145.77-7181.11)</ul>
+<ul>page (7186.1-7223.34) with p (7183.1-7187.17); p (7221.1-7227.26)</ul>
+<ul>page (7186.1-7223.34) with q (7221.66-7227.23)</ul>
+<ul>page (7224.1-7259.16) with p (7221.1-7227.26); p (7252.1-7268.37)</ul>
+<ul>page (7224.1-7259.16) with q (7221.66-7227.23); q (7252.4-7268.34)</ul>
+<ul>page (7260.1-7292.30) with p (7252.1-7268.37); p (7281.1-7302.12)</ul>
+<ul>page (7260.1-7292.30) with q (7252.4-7268.34); q (7282.7-7359.15)</ul>
+<ul>page (7293.1-7324.82) with p (7281.1-7302.12); p (7317.1-7326.46)</ul>
+<ul>page (7325.1-7356.67) with p (7317.1-7326.46)</ul>
+<ul>page (7357.1-7369.35) with q (7282.7-7359.15)</ul>
+</li>
+<li>
+<span class="name">introduction</span> overlaps:<ul>introduction (102.1-302.14) with page (101.1-125.50)</ul>
+</li>
+<li>
+<span class="name">head</span> (none)</li>
+<li>
+<span class="name">q</span> overlaps:<ul>q (1288.7-1296.9) with page (1259.1-1292.29); page (1293.1-1326.77)</ul>
+<ul>q (1492.1-1501.55) with page (1468.1-1499.22); page (1500.1-1532.29)</ul>
+<ul>q (1957.4-1960.70) with page (1917.1-1958.13); page (1959.1-1992.74)</ul>
+<ul>q (2311.22-2320.44) with page (2269.1-2312.6); page (2313.1-2346.98)</ul>
+<ul>q (2346.51-2350.15) with page (2313.1-2346.98); page (2347.1-2383.29)</ul>
+<ul>q (2485.31-2491.35) with page (2452.1-2489.9); page (2490.1-2534.23)</ul>
+<ul>q (2533.4-2536.46) with page (2490.1-2534.23); page (2535.1-2572.42)</ul>
+<ul>q (2571.1-2574.74) with page (2535.1-2572.42); page (2573.1-2604.81)</ul>
+<ul>q (2656.1-2669.13) with p (2655.1-2663.56)</ul>
+<ul>q (2787.44-2794.40) with page (2748.1-2788.13); page (2789.1-2826.42)</ul>
+<ul>q (2824.4-2829.72) with page (2789.1-2826.42); page (2827.1-2862.34)</ul>
+<ul>q (2993.34-3002.54) with page (2965.1-2998.6); page (2999.1-3033.28)</ul>
+<ul>q (3210.34-3225.21) with page (3176.1-3213.49); page (3214.1-3246.38)</ul>
+<ul>q (3231.4-3254.47) with page (3214.1-3246.38); page (3247.1-3282.18)</ul>
+<ul>q (4338.4-4342.9) with page (4302.1-4339.44); page (4340.1-4383.81)</ul>
+<ul>q (4383.4-4386.20) with page (4340.1-4383.81); page (4384.1-4422.15)</ul>
+<ul>q (4493.72-4497.34) with page (4459.1-4493.102); page (4494.1-4529.31)</ul>
+<ul>q (4742.69-4757.50) with page (4714.1-4746.48); page (4747.1-4778.56)</ul>
+<ul>q (4845.47-4851.24) with page (4813.1-4847.49); page (4848.1-4881.65)</ul>
+<ul>q (4941.4-4954.13) with page (4913.1-4946.79); page (4947.1-4978.81)</ul>
+<ul>q (5078.118-5097.72) with page (5047.1-5078.162); page (5079.1-5107.28)</ul>
+<ul>q (5489.71-5499.28) with page (5458.1-5493.81); page (5494.1-5532.43)</ul>
+<ul>q (5886.4-5888.67) with page (5852.1-5886.84); page (5887.1-5920.7)</ul>
+<ul>q (6552.52-6558.13) with page (6521.1-6556.14); page (6557.1-6591.43)</ul>
+<ul>q (6657.53-6668.6) with page (6628.1-6662.23); page (6663.1-6697.27)</ul>
+<ul>q (7057.53-7079.31) with page (7042.1-7072.25); page (7073.1-7115.15)</ul>
+<ul>q (7145.77-7181.11) with page (7116.1-7151.55); page (7152.1-7185.81)</ul>
+<ul>q (7145.77-7181.11) with p (7143.1-7165.10)</ul>
+<ul>q (7221.66-7227.23) with page (7186.1-7223.34); page (7224.1-7259.16)</ul>
+<ul>q (7252.4-7268.34) with page (7224.1-7259.16); page (7260.1-7292.30)</ul>
+<ul>q (7282.7-7359.15) with page (7260.1-7292.30); page (7357.1-7369.35)</ul>
+<ul>q (7282.7-7359.15) with p (7281.1-7302.12); p (7359.1-7364.15)</ul>
+</li>
+<li>
+<span class="name">hi</span> (none)</li>
+<li>
+<span class="name">signed</span> (none)</li>
+<li>
+<span class="name">trailer</span> (none)</li>
+<li>
+<span class="name">preface</span> overlaps:<ul>preface (304.1-363.9) with page (303.1-335.10); page (336.1-364.13)</ul>
+</li>
+<li>
+<span class="name">body</span> overlaps:<ul>body (366.1-7370.6) with page (365.1-392.29)</ul>
+</li>
+<li>
+<span class="name">nar</span> overlaps:<ul>nar (367.1-7369.29) with page (365.1-392.29)</ul>
+<ul>nar (908.1-6884.5) with page (893.1-926.64); page (6867.1-6897.69)</ul>
+<ul>nar (908.1-6884.5) with chapter (6622.1-7369.24)</ul>
+<ul>nar (3293.1-4722.5) with page (3283.1-3313.56); page (4714.1-4746.48)</ul>
+</li>
+<li>
+<span class="name">letter</span> overlaps:<ul>letter (368.1-478.8) with page (365.1-392.29); page (461.1-496.65)</ul>
+<ul>letter (479.1-593.8) with page (461.1-496.65)</ul>
+<ul>letter (634.1-7369.15) with page (633.1-668.16)</ul>
+<ul>letter (1970.15-2089.8) with page (1959.1-1992.74); page (2060.1-2095.59)</ul>
+<ul>letter (2217.1-2287.8) with page (2197.1-2231.56); page (2269.1-2312.6)</ul>
+<ul>letter (6126.30-6186.8) with page (6163.1-6195.52)</ul>
+</li>
+<li>
+<span class="name">opener</span> (none)</li>
+<li>
+<span class="name">salute</span> (none)</li>
+<li>
+<span class="name">dateline</span> (none)</li>
+<li>
+<span class="name">lb</span> (none)</li>
+<li>
+<span class="name">entry</span> overlaps:<ul>entry (636.1-779.7) with page (633.1-668.16); page (745.1-786.8)</ul>
+<ul>entry (780.1-857.7) with page (745.1-786.8)</ul>
+<ul>entry (859.1-6884.12) with page (858.1-892.77); page (6867.1-6897.69)</ul>
+<ul>entry (859.1-6884.12) with chapter (6622.1-7369.24)</ul>
+<ul>entry (6885.1-6990.7) with page (6867.1-6897.69); page (6967.1-7001.46)</ul>
+<ul>entry (6991.1-7023.7) with page (6967.1-7001.46); page (7002.1-7041.62)</ul>
+<ul>entry (7024.1-7095.7) with page (7002.1-7041.62); page (7073.1-7115.15)</ul>
+<ul>entry (7104.1-7369.7) with page (7073.1-7115.15)</ul>
+</li>
+<li>
+<span class="name">chapter</span> overlaps:<ul>chapter (909.1-1066.9) with page (893.1-926.64); page (1061.1-1091.44)</ul>
+<ul>chapter (1067.1-1264.9) with page (1061.1-1091.44); page (1259.1-1292.29)</ul>
+<ul>chapter (1265.1-1510.9) with page (1259.1-1292.29); page (1500.1-1532.29)</ul>
+<ul>chapter (1511.1-1730.9) with page (1500.1-1532.29)</ul>
+<ul>chapter (1732.1-1965.9) with page (1731.1-1764.70); page (1959.1-1992.74)</ul>
+<ul>chapter (1966.1-2212.9) with page (1959.1-1992.74); page (2197.1-2231.56)</ul>
+<ul>chapter (2213.1-2576.9) with page (2197.1-2231.56); page (2573.1-2604.81)</ul>
+<ul>chapter (2577.1-2876.9) with page (2573.1-2604.81); page (2863.1-2894.18)</ul>
+<ul>chapter (2877.1-3075.9) with page (2863.1-2894.18); page (3069.1-3100.59)</ul>
+<ul>chapter (3076.1-3292.9) with page (3069.1-3100.59); page (3283.1-3313.56)</ul>
+<ul>chapter (3294.1-3540.9) with page (3283.1-3313.56); page (3518.1-3552.61)</ul>
+<ul>chapter (3541.1-3748.9) with page (3518.1-3552.61); page (3742.1-3775.39)</ul>
+<ul>chapter (3749.1-3943.9) with page (3742.1-3775.39); page (3917.1-3953.26)</ul>
+<ul>chapter (3944.1-4117.9) with page (3917.1-3953.26); page (4094.1-4126.43)</ul>
+<ul>chapter (4118.1-4422.9) with page (4094.1-4126.43)</ul>
+<ul>chapter (4424.1-4721.9) with page (4423.1-4458.64); page (4714.1-4746.48)</ul>
+<ul>chapter (4723.1-4889.9) with page (4714.1-4746.48); page (4882.1-4912.23)</ul>
+<ul>chapter (4890.1-5151.9) with page (4882.1-4912.23)</ul>
+<ul>chapter (5153.1-5390.9) with page (5152.1-5185.54)</ul>
+<ul>chapter (5392.1-5709.9) with page (5391.1-5421.53)</ul>
+<ul>chapter (5711.1-6054.9) with page (5710.1-5742.47)</ul>
+<ul>chapter (6056.1-6379.9) with page (6055.1-6086.18)</ul>
+<ul>chapter (6381.1-6621.9) with page (6380.1-6417.43); page (6592.1-6627.76)</ul>
+<ul>chapter (6622.1-7369.24) with entry (859.1-6884.12)</ul>
+<ul>chapter (6622.1-7369.24) with nar (908.1-6884.5)</ul>
+<ul>chapter (6622.1-7369.24) with page (6592.1-6627.76)</ul>
+</li>
+<li>
+<span class="name">cit</span> (none)</li>
+<li>
+<span class="name">note</span> (none)</li>
+<li>
+<span class="name">term</span> (none)</li>
+<li>
+<span class="name">ref</span> (none)</li>
+</ul>
+</div>
+</body>
+</html>

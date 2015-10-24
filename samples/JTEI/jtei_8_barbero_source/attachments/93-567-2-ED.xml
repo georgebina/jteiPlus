@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<TEI version="5.1" xml:lang="it" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             xsi:schemaLocation="http://www.tei-c.org/ns/1.0  http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+                             xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Catalogo di manoscritti</title>
+                <author>Milano, Archivio storico civico e Biblioteca Trivulziana, Trivulziano, Triv.80</author>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>ICCU</distributor>
+                <date>2014-02-09</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>La fonte di ciascuna descrizione è indicata nelle singole schede</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listBibl>
+                <msDesc xml:id="ICCU_CNMD0000196459" xml:lang="it">
+                    <msIdentifier>
+                        <country key="it">Italia</country>
+                        <region>Lombardia</region>
+                        <settlement>Milano</settlement>
+                        <repository key="MI0327">Archivio storico civico e Biblioteca Trivulziana</repository>
+                        <collection>Trivulziano</collection>
+                        <idno>Triv.80</idno>
+                        <altIdentifier type="CNMS">
+                            <idno>0000027100</idno>
+                        </altIdentifier>
+                        <altIdentifier type="collocazione">
+                            <idno>G 7</idno>
+                        </altIdentifier>
+                        <altIdentifier type="anticasegnatura">
+                            <idno>Biblioteca Trivulzio. Codice N° 80. Scaffale N° 81. Palchetto N° 2.</idno>
+                            <note n="39" type="noteantisegnatura"></note>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="01">
+                            <locus>cc. 1r-33v</locus>
+                            <author>
+                                <name n="1" key="CNMN0000087712" type="C">Boccaccio, Giovanni</name>
+                                <date n="1" >1313-1375</date>
+                            </author>
+                            <title type="identificato">Trattatello in laude di Dante</title>
+                        </msItem>
+                        <msItem n="02">
+                            <locus>cc. 34r-36v</locus>
+                            <title type="identificato">Fiori e vita di filosafi e d’altri savi e d’imperadori, estratto</title>
+                            <incipit type="testo" defective="false">
+                                Secondo filosafo fue uno huomo al tempo d’Adriano
+                                <locus>c. 34r</locus>
+                            </incipit>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <p>
+                            <term n="1">Unitario</term>
+                            <term n="2">Fascicoli legati</term>
+                        </p>
+                        <objectDesc form="codex">
+                            <supportDesc material="chart">
+                                <support>
+                                    <p>
+                                        <material n="1">chart</material>
+                                        <material n="2">chart</material>
+                                        <watermark>tre monti sormontati da doppia croce</watermark>
+                                    </p>
+                                </support>
+                                <extent>
+                                    <measure type="Guardieiniziali" unit="carte">1</measure>
+                                    <measure type="Corpo" unit="carte">36</measure>
+                                    <measure type="Guardiefinali" unit="carte">1</measure>
+                                    <measure n="1" type="height" unit="mm">218</measure>
+                                    x
+                                    <measure n="2" type="width" unit="mm">145</measure>
+                                    <locus>c. 7r</locus>
+                                </extent>
+                                <collation>
+                                    <p>
+                                        <formula>1-3 (12)</formula>
+                                        <signatures>segnatura a registro parzialmente asportata dalla rifilatura</signatures>
+                                        <catchwords>orizzontali in rosso</catchwords>
+                                    </p>
+                                </collation>
+                            </supportDesc>
+                            <layoutDesc>
+                                <p>
+                                    <note n="15" type="rigatura">a colore</note>
+                                    <note n="16" type="specchiorigato">27 [154] 37 × 24 [94] 27 (f. 7r)</note>
+                                    <note n="17" type="righe">rr. 2 / ll. 26 (f. 7r)</note>
+                                    <note n="18" type="disposizionetesto">a piena pagina</note>
+                                </p>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <p>
+                                mercantesca di mano unica
+                            </p>
+                        </handDesc>
+                        <decoDesc>
+                            <p>
+                                Al f. 1r fregio vegetale colorato in blu, rosso, rosa, verde e oro lungo i margini superiore, interno e inferiore, con iniziale maggiore rosa e gialla su fondo oro ornata da racemi vegetali; iniziali minori filigranate in blu e rosso, con filigrana in rosso (per l’iniziale blu) e bruno-violaceo (per l’iniziale rossa).
+                            </p>
+                        </decoDesc>
+                        <bindingDesc>
+                            <p>
+                                <origDate>1801-1825</origDate>
+                                <material n="2Assi">Cartone</material>
+                                <material n="6Coperta">Carta</material>
+                                <note n="33" type="descrmatcoperta">di colore rosso</note>
+                            </p>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            Al f. 33v, in rosso: Qui finisce il breve trattato dell’orgine [sic], vita, costumi et opere del chiaro poeta Dante Alighieri di Firençe fatto in laude et comendatione del detto poeta dal venerabile poeta messere Giovanni Boccacio da Certaldo di Firençe. Finito adì 22 d’ottobre 1437. Nel bas de page del f. 1r stemma sorretto da racemi vegetali completamente cancellato. Al f. Ir nota di Gian Giacomo Trivulzio (1774-1831): Questo codice, che già appartenne al celebre Giuseppe Bossi pittor milanese, è lo stesso da cui fu tratta la Vita di Dante premessa all’edizione della Divina Comedia fatta in Milano dallo stampatore Mussi nel 1809 in 3 volumi in formato atlantico. Forse in relazione al momento dell’acquisto si leggono la data: 19 aprile 1820 e le iniziali del nome: G. G. T. sulla controguardia anteriore. Tuttavia, quando il manoscritto faceva ancora parte della biblioteca del Bossi aveva un assetto codicologico ben diverso: il secondo testo era seguito dal volgarizzamento dell’epistola petrarchesca Fam. XII, 2 (al cui incipit allude il richiamo al f. 36v) e poi dall’orazione di Leonardo Bruni a Niccolò Tolentino in occasione del conferimento del bastone di capitano di guerra nel 1433; chiudevano il volume i Proverbi di Salomone e gli ammaestramenti di Albertano da Brescia in volgare (cfr. Catalogo della libreria del fu cavaliere Giuseppe Bossi pittore milanese, la di cui vendita al Pubblico Incanto si farà il giorno 12 febbraio 1818, Milano, Bernardoni, 1817, p. 240). In casa Trivulzio, invece, entrarono solo i primi tre fascicoli del manoscritto, perché già nel catalogo ottocentesco del Porro si menzionano solo i due testi ora presenti nel codice. Sulla controguardia anteriore ex libris della Biblioteca Trivulzio con stemma di Gian Giacomo Trivulzio di Musocco (1839-1902), accompagnato dalla segnatura e dall’antica collocazione del manoscritto: Codice N° 80. Scaffale N° 81. Palchetto N° 2.
+                            <name n="1" key="CNMN0000027568" role="possessore" type="C">Bossi, Giuseppe $$1777-1815</name>
+                            <name n="2" key="CNMN0000217658" role="altra_relazione_di_D.E." type="C">Mussi, Luigi $stampatore milanese $$sec. XIX inizi</name>
+                            <name n="3" key="CNMN0000081421" role="possessore" type="C">Trivulzio, Gian Giacomo $senior $$1774-1831</name>
+                            <name n="4" key="CNMN0000058492" role="possessore" type="C">Trivulzio, Gian Giacomo : di#Musocco $$1839-1902</name>
+                        </summary>
+                        <origin>
+                            <p>
+                                <origDate cert="high">1437-10-22</origDate>
+                                <locus>c. 33v</locus>
+                            </p>
+                        </origin>
+                        <acquisition>
+                            <p>
+                                Entrato in biblioteca nel 
+                                <date>1935</date>
+                            </p>
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    Scheda di prima mano
+                                    <name>Marzia Pontone</name>
+                                    <date>2011-09-20</date>
+                                </source>
+                                <change>
+                                    <name>Marzia Pontone</name>
+                                    <date>2011-09-21</date>
+                                </change>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl n="1Astampa">Giulio Porro, Catalogo dei codici manoscritti della Trivulziana, Torino, Bocca, 1884 (Biblioteca storica italiana, 2), p. 33; Vittore Branca, Tradizione delle opere di Giovanni Boccaccio, I. Un primo elenco dei codici e tre studi, Roma, Edizioni di Storia e Letteratura, 1958 (Storia e Letteratura. Raccolta di studi e testi, 66), p. 75; I codici medioevali della Biblioteca Trivulziana, Catalogo, a cura di Caterina Santoro, Milano, Comune di Milano - Biblioteca Trivulziana, 1965, pp. 9-10 nr. 12; Caterina Santoro, Biblioteche di enti e di bibliofili attraverso i codici della Trivulziana, «Archivio storico lombardo», s. IX, 7 (1968), 76-109: p. 89; Biblioteca Trivulziana del Comune di Milano, a cura di Angela Dillon Bussi, Giovanni M. Piazza, Fiesole, Nardini, 1995 (Le grandi biblioteche d’Italia), pp. 19, 56; Angelo Colombo, «I lunghi affanni ed il perduto regno». Cultura letteraria, filologia e politica nella Milano della Restaurazione, Besançon, Presses Universitaires de Franche-Comté, 2007 (Annales littéraires de l’Université de Franche-Comté. Littérature et histoire des pays de langues européennes, 75), p. 188 n. 14.</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </listBibl>
+        </body>
+    </text>
+</TEI>
