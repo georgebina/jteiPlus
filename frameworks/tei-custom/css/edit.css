@@ -72,12 +72,12 @@ TEI:-oxy-large {
     font-family:verdana, arial, helvetica, sans-serif;
     counter-reset: nCounter;
     width:90%;
-    min-width:600px;
+    min-width:300px;
 }
 
 
 body {    
-    min-width:500px;
+    min-width:200px;
     counter-reset: pCounter;
 }
 text {
