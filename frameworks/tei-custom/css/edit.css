@@ -70,24 +70,10 @@ TEI:-oxy-large {
     padding: 2em;
     padding-top: 0em;
     font-family:verdana, arial, helvetica, sans-serif;
-    counter-reset: nCounter;
-    width:90%;
-    min-width:300px;
+    counter-reset: nCounter pCounter example appendix;
+    width:80%;
 }
 
-
-body {    
-    min-width:200px;
-    counter-reset: pCounter;
-}
-text {
-    counter-reset:example;
-}
-
-
-back {
-    counter-reset:appendix;
-}
 
 p {
     line-height:1.5em;
@@ -225,10 +211,17 @@ margin-left:4px;
 margin-right:1px;
 }
  
+
+
 ptr[target]:after {
     content: oxy_getSomeText(attr(target), 60, true)!important;
 } 
 
+@media (max-width:600px){
+ptr[target]:after {
+    content: oxy_getSomeText(attr(target), 30, true)!important;
+} 
+}
 
 
 /* EXAMPLES */
