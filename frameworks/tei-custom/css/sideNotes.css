@@ -57,14 +57,10 @@ note  {
     font-size:12px;
     font-weight:normal;
     position:absolute;
-    right:-40%;
-    width:35%;
+    right:-50%;
+    width:45%;
     background-color:#FFFFF0;
     color:#555555;
-}
-
-head note {
-    right:-38.5%;
 }
 
 note:-oxy-edit {

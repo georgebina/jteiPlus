@@ -188,7 +188,7 @@ ref:-oxy-edit:after(11){
     
     content:
             oxy_label(
-                text, " Type: ", 
+                text, " Type:   ", 
                 width, 25%, 
                 color, inherit
             ) 
@@ -218,6 +218,12 @@ ptr[target]:after {
 } 
 
 @media (max-width:600px){
+ptr[target]:after {
+    content: oxy_getSomeText(attr(target), 45, true)!important;
+} 
+}
+
+@media (max-width:800px){
 ptr[target]:after {
     content: oxy_getSomeText(attr(target), 30, true)!important;
 } 
@@ -593,7 +599,7 @@ list > item:last-child:after(10) {
         
         content:"\A"
                 oxy_label(
-                    text, " Type: ", 
+                    text, " Type:   ", 
                     width, 33%, 
                     color, inherit
                 ) 
