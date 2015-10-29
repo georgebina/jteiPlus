@@ -75,13 +75,12 @@
     </front>
     <body>
       <div xml:id="intro">
-        <head>Introduction</head>
+        <head>Introduction Test</head>
         <p>In philosophy, <term>ontology</term> has for at least 2,500 years denoted the study of
           being. Computer science <term>ontologies</term>, usually in the plural, are different from
           the philosophical concept of ontology. Computer science ontologies refer to shared
-          conceptualizations expressed in formal languages (<ref
-            type="bibl" target="#gruber09"
-          >Gruber 2009</ref>) and have been a topic of study for some thirty years, initially
+          conceptualizations expressed in formal languages (<ref type="bibl" target="#gruber09"
+            >Gruber 2009</ref>) and have been a topic of study for some thirty years, initially
           connected to the artificial intelligence community. They have not been of much importance
           in digital humanities until the last ten to fifteen years, but are now gaining momentum as
           the semantic web develops.</p>
