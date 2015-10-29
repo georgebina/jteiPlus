@@ -310,6 +310,7 @@ cit > quote:after(10) {
 graphic {
     position:relative;
     border:none;
+    max-width:100%;
 }
 graphic:after(10) {
     width:24px;
