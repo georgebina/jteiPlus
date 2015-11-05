@@ -75,7 +75,7 @@
     </front>
     <body>
       <div xml:id="intro">
-        <head>Introduction</head>
+        <head>Introduction George</head>
         <p>In philosophy, <term>ontology</term> has for at least 2,500 years denoted the study of
           being. Computer science <term>ontologies</term>, usually in the plural, are different from
           the philosophical concept of ontology. Computer science ontologies refer to shared
@@ -117,6 +117,17 @@
           persons, places, and events, may be closer to an ontology than other, less formalized
           parts of the standard (<ref
             type="bibl" target="#ore09">Ore and Eide 2009</ref>).</p>
+        <list>
+          <item/>
+          <item/>
+          <item/>
+        </list>
+        <p/>
+        <p/>
+      </div>
+      <div xml:id="div-w0ab1b1b1a">
+        <head/>
+        <p/>
       </div>
       <div xml:id="p4top5">
         <head>P4 to P5<note>This section is based on Eide and Ore (<ref type="bibl"
@@ -174,6 +185,10 @@
           other methods do exist, the inclusion of the new elements in P5 was not strictly necessary
           for interoperability, but did facilitate a standard way of creating the
           interconnections.</p>
+        <list>
+          <item/>
+          <item/>
+        </list>
       </div>
       <div xml:id="modeling">
         <head>Two Ways of Modeling</head>
