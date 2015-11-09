@@ -75,7 +75,7 @@
     </front>
     <body>
       <div xml:id="intro">
-        <head>Introduction</head>
+        <head>Introduction test</head>
         <p>In philosophy, <term>ontology</term> has for at least 2,500 years denoted the study of
           being. Computer science <term>ontologies</term>, usually in the plural, are different from
           the philosophical concept of ontology. Computer science ontologies refer to shared
