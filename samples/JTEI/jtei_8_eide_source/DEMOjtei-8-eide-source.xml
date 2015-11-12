@@ -75,7 +75,8 @@
     </front>
     <body>
       <div xml:id="intro">
-        <head>Introduction</head>
+        <head>Introduction<?oxy_insert_start author="George Bina" timestamp="20151112T165718+0200"?>
+          test<?oxy_insert_end?></head>
         <p>In philosophy, <term>ontology</term> has for at least 2,500 years denoted the study of
           being. Computer science <term>ontologies</term>, usually in the plural, are different from
           the philosophical concept of ontology. Computer science ontologies refer to shared
@@ -982,3 +983,4 @@
     </back>
   </text>
 </TEI>
+<?oxy_options track_changes="on"?>
