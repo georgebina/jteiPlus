@@ -93,17 +93,15 @@
             its final form. However, the interpretation and formulation, and responsibility for its
             errors and omissions, is mine alone.</note> However, although computer science
           ontologies are different from philosophical ontology, the two are not totally disconnected
-            (<ref
-            type="bibl" target="#zuniga01"
-          >Zúñiga 2001</ref>), and therefore some remarks will
+            (<ref type="bibl" target="#zuniga01">Zúñiga 2001</ref>), and therefore some remarks will
           be made on relations with philosophy as well. The focus will be on how meaning can be
           established in computer-based modeling. Three broad areas will be described. One is the
           establishment of meaning through working with and interpreting documents seen as sources
-          for scholarly work, be they primary or secondary. Another area is the establishment of
-          meaning through the development of models, including ontologies. A third area of meaning
-          production with particular reference to TEI happens through linking between TEI documents
-          and external ontologies. How such linking can be done and what it may imply for the
-          meaning and usability of TEI documents is an important focus of this article.</p>
+          for scholarly work, be they primary or secondary. Test Another area is the establishment
+          of meaning through the development of models, including ontologies. A third area of
+          meaning production with particular reference to TEI happens through linking between TEI
+          documents and external ontologies. How such linking can be done and what it may imply for
+          the meaning and usability of TEI documents is an important focus of this article.</p>
         <p>TEI represents a shared conceptualization of what exists in the domains relevant to text
           encoding. It can be expressed in formal models, but it is questionable whether TEI can be
           seen as an ontology in the computer science sense. According to the classification by
@@ -117,6 +115,10 @@
           persons, places, and events, may be closer to an ontology than other, less formalized
           parts of the standard (<ref
             type="bibl" target="#ore09">Ore and Eide 2009</ref>).</p>
+        <list>
+          <item/>
+          <item/>
+        </list>
       </div>
       <div xml:id="p4top5">
         <head>P4 to P5<note>This section is based on Eide and Ore (<ref type="bibl"
