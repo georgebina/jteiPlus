@@ -73,18 +73,3 @@ note > * {
 note:-oxy-edit > * {
     display:inline;
 }
-
-
-
-
-
-
-@media oxygen AND (platform:"webapp") {
-note:before(100) {
-    position:relative;
-    bottom:-4px;
-}
-
-
-
-}
