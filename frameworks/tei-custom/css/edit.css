@@ -567,16 +567,6 @@ list > item:last-child:after(10) {
 /* WEBAPP specific */
 
 @media oxygen AND (platform:"webapp") {
-    
-/* Fix actions position */
-    ref:after(8),
-    ptr:after(8){
-        position:relative;
-        bottom:-4px;
-    }
-/* End - Fix actions position */        
-        
-        
     ref:-oxy-edit:after(10),
     ptr:-oxy-edit:after(10) {
         
